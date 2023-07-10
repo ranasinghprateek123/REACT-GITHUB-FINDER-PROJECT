@@ -54,7 +54,7 @@ h1{
   padding: 25px;
   background-color: #fff;
   border-radius: 12px;
-  box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.873);
 }
 .avatar{
   width: 150px;
@@ -76,7 +76,7 @@ h2{
   margin-top: 30px;
 }
 .repo-list h2{
-  color: #333;
+  color: grey;
   margin-bottom: 20px;
 
 }
