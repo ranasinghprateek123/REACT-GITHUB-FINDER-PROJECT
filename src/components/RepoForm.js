@@ -6,7 +6,7 @@ export default function RepoForm({repos}) {
         <h2>Repositories</h2>
         <ul>
             {repos.map((repo)=> (
-                <li key={repo._id}>
+                <li key={repo._id}> 
                     <a href={repo.html_url} target='_blank' rel='noreferrer'>{repo.name}</a>
                 </li>
             ))}

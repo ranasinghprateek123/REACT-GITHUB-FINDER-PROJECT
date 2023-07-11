@@ -12,9 +12,7 @@ export default function Pagination({totalRepos,reposPerPage,currentPage,paginate
         {pageNumber.map((number)=> (
             <li key={number}>
                 <button className='btn' 
-                onClick={()=>paginate(number)}>
-                    {number}
-                </button>
+                onClick={()=>paginate(number)}>{number}</button>
             </li>
         ))}
     </div>
